@@ -1,0 +1,3 @@
+window.IncubatorPasswordStrengthSuites = [
+  'sample.html',
+];
