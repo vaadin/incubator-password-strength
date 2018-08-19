@@ -29,7 +29,8 @@
     "vaadin-license-checker": "vaadin/license-checker#^2.0.1",
     "vaadin-lumo-styles": "vaadin/vaadin-lumo-styles#^1.0.0",
     "vaadin-dialog": "vaadin/vaadin-dialog#^2.0.2",
-    "vaadin-button": "vaadin/vaadin-button#^2.0.1"
+    "vaadin-button": "vaadin/vaadin-button#^2.0.1",
+    "vaadin-text-field": "^2.0.2"
   },
   "devDependencies": {
     "iron-component-page": "^3.0.0",
