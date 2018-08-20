@@ -3,29 +3,21 @@
 
 # &lt;incubator-password-strength&gt;
 
-[Live Demo ↗](https://vaadin.com/components/incubator-password-strength/html-examples)
-|
-[API documentation ↗](https://vaadin.com/components/incubator-password-strength/html-api)
+[Live Demo ↗](https://incubator.app.fi/incubator-password-strength-demo/index.html)
 
-
-[&lt;incubator-password-strength&gt;](https://vaadin.com/components/incubator-password-strength) is a Web Component providing a password field with a strength indicator, part of the [Vaadin components](https://vaadin.com/components).
+[&lt;incubator-password-strength&gt;](https://vaadin.com/directory/component/vaadinincubator-password-strength) is a Web Component providing a strength indicator for a password field.
 
 ```html
-  <incubator-password-strength>
+  <incubator-password-strength strength="3">
   </incubator-password-strength>
 ```
 
-[<img src="https://raw.githubusercontent.com/vaadin/incubator-password-strength/master/screenshot.png" width="200" alt="Screenshot of incubator-password-strength">](https://vaadin.com/components/incubator-password-strength)
+[<img src="https://raw.githubusercontent.com/vaadin/incubator-password-strength/master/screenshot.gif" width="200" alt="Screenshot of incubator-password-strength">](https://vaadin.com/directory/component/vaadinincubator-password-strength)
 
 
 ## Installation
 
-The Vaadin components are distributed as Bower and npm packages.
-Please note that the version range is the same, as the API has not changed.
-You should not mix Bower and npm versions in the same application, though.
-
-Unlike the official Polymer Elements, the converted Polymer 3 compatible Vaadin components
-are only published on npm, not pushed to GitHub repositories.
+The Vaadin Incubator components are distributed as Bower packages.
 
 ### Polymer 2 and HTML Imports compatible version
 
@@ -39,20 +31,6 @@ Once installed, import it in your application:
 
 ```html
 <link rel="import" href="bower_components/incubator-password-strength/incubator-password-strength.html">
-```
-### Polymer 3 and ES Modules compatible version
-
-
-Install `incubator-password-strength`:
-
-```sh
-npm i @vaadin/incubator-password-strength --save
-```
-
-Once installed, import it in your application:
-
-```js
-import '@vaadin/incubator-password-strength/incubator-password-strength.js';
 ```
 
 ## Getting Started
