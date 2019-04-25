@@ -1,3 +1,3 @@
-window.IncubatorPasswordStrengthSuites = [
+window.VcfPasswordStrengthSuites = [
   'sample.html',
 ];

@@ -1,25 +1,25 @@
 {
-  "name": "@vaadin/incubator-password-strength",
+  "name": "@vaadin/vcf-password-strength",
   "version": "1.0.0-beta2",
-  "description": "incubator-password-strength",
-  "main": "incubator-password-strength.html",
-  "repository": "vaadin/incubator-password-strength",
+  "description": "vcf-password-strength",
+  "main": "vcf-password-strength.html",
+  "repository": "vaadin/vcf-password-strength",
   "keywords": [
     "Vaadin",
-    "incubator-password-strength",
+    "vcf-password-strength",
     "web-components",
     "web-component",
     "polymer"
   ],
   "author": "Vaadin Ltd",
-  "license": "https://raw.githubusercontent.com/vaadin/incubator-password-strength/master/LICENSE",
+  "license": "https://raw.githubusercontent.com/vaadin/vcf-password-strength/master/LICENSE",
   "bugs": {
-    "url": "https://github.com/vaadin/incubator-password-strength/issues"
+    "url": "https://github.com/vaadin/vcf-password-strength/issues"
   },
   "homepage": "https://vaadin.com/components",
   "scripts": {
     "test": "wct",
-    "analyze": "polymer analyze incubator-password-strength.html > analysis.json",
+    "analyze": "polymer analyze vcf-password-strength.html > analysis.json",
     "preversion": "gulp version:update"
   },
   "devDependencies": {

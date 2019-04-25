@@ -1,19 +1,19 @@
 {
-  "name": "incubator-password-strength",
+  "name": "vcf-password-strength",
   "homepage": "https://vaadin.com/components",
   "authors": [
     "Vaadin Ltd"
   ],
-  "description": "incubator-password-strength",
-  "main": "incubator-password-strength.html",
+  "description": "vcf-password-strength",
+  "main": "vcf-password-strength.html",
   "keywords": [
     "Vaadin",
-    "incubator-password-strength",
+    "vcf-password-strength",
     "web-components",
     "web-component",
     "polymer"
   ],
-  "license": "https://raw.githubusercontent.com/vaadin/incubator-password-strength/master/LICENSE",
+  "license": "https://raw.githubusercontent.com/vaadin/vcf-password-strength/master/LICENSE",
   "ignore": [
     "**/.*",
     "node_modules",

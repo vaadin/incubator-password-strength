@@ -2,17 +2,17 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>incubator-password-strength tests</title>
+  <title>vcf-password-strength tests</title>
   <script src="../../web-component-tester/browser.js"></script>
   <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
   <link rel="import" href="../../test-fixture/test-fixture.html">
-  <link rel="import" href="../incubator-password-strength.html">
+  <link rel="import" href="../vcf-password-strength.html">
 </head>
 
 <body>
   <test-fixture id="default">
     <template>
-      <incubator-password-strength></incubator-password-strength>
+      <vcf-password-strength></vcf-password-strength>
     </template>
   </test-fixture>
 
@@ -25,7 +25,7 @@
       });
 
       it('should have the proper instance', () => {
-        expect(element instanceof Vaadin.IncubatorPasswordStrength).to.be.true;
+        expect(element instanceof Vaadin.VcfPasswordStrength).to.be.true;
       });
     });
   </script>
